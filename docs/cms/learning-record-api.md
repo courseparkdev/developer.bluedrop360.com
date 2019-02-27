@@ -10,7 +10,7 @@ MOL-approved training providers are issued a unique identifier by MOL, which mus
 
 ## Supported Actions
 
-*Add Learning Record*
+[*Add Learning Record*](https://blnnetworkdraft.docs.apiary.io/#reference/learning-records/add-learning-record/add-a-learning-record)
 
 Call to add a learning record to the CMS system.
 
