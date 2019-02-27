@@ -2,7 +2,7 @@
 
 Bluedrop Learning Networks currently supports the following APIs for MOL-approved training providers:
 
- - Learning Record API
+ - [Learning Record API](./learning-record-api)
 	 - Allows training providers to submit learning records to the MOL Certificate Management System (CMS).
 
  - Course Offering API ***(Coming Soon)***
@@ -12,8 +12,8 @@ Bluedrop Learning Networks currently supports the following APIs for MOL-approve
 
 ### Authentication
 
-Authentication is documented at:
-[http://developer.bluedrop360.com/#introduction/authentication](Authentication%20is%20documented%20at:%20http://developer.bluedrop360.com/#introduction/authentication)
+Authentication is documented here: 
+[BLN API - Authentication](https://blnnetworkdraft.docs.apiary.io/#introduction/authentication)
 
 ### Error and Status Codes
 
