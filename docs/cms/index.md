@@ -39,7 +39,7 @@ HTTP Status Code Summary
 - 200 OK
 	- Everything worked as expected.
 - 204 No Content
-	- Everything worked as expected, and there is no response body.
+	- Everything worked as expected, but there is no response body.
 - 400 Bad Request
 	- Often missing a required parameter.
 - 401 Unauthorized  
