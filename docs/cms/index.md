@@ -13,7 +13,7 @@ Bluedrop Learning Networks currently supports the following APIs for MOL-approve
 ### Authentication
 
 Authentication is documented here: 
-[BLN API - Authentication](https://blnnetworkdraft.docs.apiary.io/#introduction/authentication)
+[BLN API - Authentication](https://bluedrop360apiv2network.docs.apiary.io/#introduction/authentication)
 
 ### Error and Status Codes
 
