@@ -2,11 +2,12 @@
 
 ## Background
 
-The purpose of the Learning Record API is to allow Ministry of Labour (MOL) approved training providers to submit learning records to the MOL Certificate Management System (CMS). This method of submission is meant to replace the current method, which involves the physical submission of training records via the mailing of a USB key.
+The purpose of the Learning Record API is to allow   
+Ministry of Labour, Training and Skills Development (MLTSD) approved training providers to submit learning records to the MLTSD Certificate Management System (CMS). This method of submission is meant to replace the current method, which involves the physical submission of training records via the mailing of a USB key.
 
-The API currently supports only learning records for courses related to both MOL standards: Working at Heights and Joint Health and Safety Committee 2014. This is captured in the trainingStandardKey attribute in the reference documentation, and the complete list of support values is included in the Technical section below. Training providers must always map their learning records to one of these standard courses.
+The API currently supports only learning records for courses related to both MLTSD standards: Working at Heights and Joint Health and Safety Committee 2014. This is captured in the `trainingStandardKey` attribute in the reference documentation, and the complete list of support values is included in the Technical section below. Training providers must always map their learning records to one of these standard courses.
 
-MOL-approved training providers are issued a unique identifier by MOL, which must be included with every request. Please refer to the networkKey attribute in the reference documentation.
+MLTSD-approved training providers are issued a unique identifier by MLTSD, which must be included with every request. Please refer to the `networkKey` attribute in the reference documentation.
 
 ## Supported Actions
 
@@ -14,7 +15,7 @@ MOL-approved training providers are issued a unique identifier by MOL, which mus
 
 Call to add a learning record to the CMS system.
 
-- Each learning record must include detailed learner information to ensure the learning record can be associated with the correct user. Note that MOL administrators will have the ability to manually match any learners that could not be matched automatically. If the learner cannot be found, a new one will be created.
+- Each learning record must include detailed learner information to ensure the learning record can be associated with the correct user. Note that MLTSD administrators will have the ability to manually match any learners that could not be matched automatically. If the learner cannot be found, a new one will be created.
 - Currently, learning records cannot be directly removed from the system. They can, however, be voided or updated by contacting the Bluedrop Customer Success team (support@bluedrop360.com).
 
 ## Technical
