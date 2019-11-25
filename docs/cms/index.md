@@ -1,12 +1,12 @@
-# API documentation for MOL-Approved Training Providers
+# API documentation for MLTSD-Approved Training Providers
 
-Bluedrop Learning Networks currently supports the following APIs for MOL-approved training providers:
+Bluedrop Learning Networks currently supports the following APIs for MLTSD-approved training providers:
 
  - [Learning Record API](./learning-record-api)
-	 - Allows training providers to submit learning records to the MOL Certificate Management System (CMS).
+	 - Allows training providers to submit learning records to the MLTSD Certificate Management System (CMS).
 
  - [Class Offering API](./class-offering-api)
-	 - Allows training providers to publish course offerings to the MOL Marketplace.
+	 - Allows training providers to publish course offerings to the MLTSD Marketplace.
 
 ## Common Documentation
 
