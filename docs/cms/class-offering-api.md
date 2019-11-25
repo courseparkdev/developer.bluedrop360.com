@@ -2,24 +2,25 @@
 
 ## Background
 
-The purpose of the Class Offering API is to allow Ministry of Labour (MOL) approved training providers not using the SkillsPass system to list class offerings in the MOL Marketplace.
+The purpose of the Class Offering API is to allow   
+Ministry of Labour, Training and Skills Development (MLTSD) approved training providers not using the SkillsPass system to list class offerings in the MLTSD Marketplace.
 
-Note that the API provides a listing service only for the MOL Marketplace. Any attempts at booking training will be redirected back to the training provider’s own website, and it is up to the individual training provider to manage that booking accordingly.
+Note that the API provides a listing service only for the MLTSD Marketplace. Any attempts at booking training will be redirected back to the training provider’s own website, and it is up to the individual training provider to manage that booking accordingly.
 
-The API currently supports only class offerings related to both MOL standards: Working at Heights and Joint Health and Safety Committee 2014. This is captured in the _trainingStandardKey_ attribute in the reference documentation, and the complete list of support values is included in the _Technical_ section below. Training providers must always map their class offerings to one of these standard courses.
+The API currently supports only class offerings related to both MLTSD standards: Working at Heights and Joint Health and Safety Committee 2014. This is captured in the _trainingStandardKey_ attribute in the reference documentation, and the complete list of support values is included in the _Technical_ section below. Training providers must always map their class offerings to one of these standard courses.
 
-MOL-approved training providers are issued a unique identifier by MOL, which must be included with every request. Please refer to the _networkKey_ attribute in the reference documentation.
+MLTSD-approved training providers are issued a unique identifier by MLTSD, which must be included with every request. Please refer to the _networkKey_ attribute in the reference documentation.
 
 ## Supported Actions
 
 [*Add Class Offering*](https://bluedrop360apiv2network.docs.apiary.io/#reference/class-offerings/add-class-offering/add-a-class-offering)
-Call to add a class offering to the MOL Marketplace.
+Call to add a class offering to the MLTSD Marketplace.
 
 [*Patch Class Offering*](https://bluedrop360apiv2network.docs.apiary.io/#reference/class-offerings/class-offering/patch-a-class-offering)
-Call to update information for an existing class offering in the MOL Marketplace.
+Call to update information for an existing class offering in the MLTSD Marketplace.
 
 [*Delete Class Offering*](https://bluedrop360apiv2network.docs.apiary.io/#reference/class-offerings/class-offering/delete-a-class-offering)
-Call to remove a class offering from the MOL Marketplace.
+Call to remove a class offering from the MLTSD Marketplace.
 
 
 ## Technical
@@ -54,11 +55,3 @@ Supported values for *trainingStandardKey*:
 	- JHSC 1996 - Part 1 (English, In-Person) 
 - *JHSC-1996-2-E-I*
 	- JHSC 1996 – Part 2 (English, In-Person)
-
-
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
