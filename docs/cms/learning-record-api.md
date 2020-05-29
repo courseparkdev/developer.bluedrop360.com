@@ -2,8 +2,7 @@
 
 ## Background
 
-The purpose of the Learning Record API is to allow   
-Ministry of Labour, Training and Skills Development (MLTSD) approved training providers to submit learning records to the MLTSD Certificate Management System (CMS). This method of submission is meant to replace the current method, which involves the physical submission of training records via the mailing of a USB key.
+The purpose of the Learning Record API is to allow Ministry of Labour, Training and Skills Development (MLTSD) approved training providers to submit learning records to the MLTSD Certificate Management System (CMS). This method of submission is meant to replace the current method, which involves the physical submission of training records via the mailing of a USB key.
 
 The API currently supports only learning records for courses related to both MLTSD standards: Working at Heights and Joint Health and Safety Committee 2014. This is captured in the `trainingStandardKey` attribute in the reference documentation, and the complete list of support values is included in the Technical section below. Training providers must always map their learning records to one of these standard courses.
 
@@ -46,10 +45,10 @@ Supported values for *trainingStandardKey*:
 	- CMSS - partie 2 (French, In-Person) 
 - *JHSC-2014-Refr-E-I*
 	- JHSC – Refresher (English, In-Person) 
-- *JHSC-1996-1-E-I*
-	- JHSC 1996 - Part 1 (English, In-Person) 
-- *JHSC-1996-2-E-I*
-	- JHSC 1996 – Part 2 (English, In-Person)
+-   *JHSC-2014-1-E-O*
+	- JHSC - Part 1 (English, Online)
+-   *JHSC-2014-1-F-O*
+	- JHSC - Part 1 (French, Online)
 
 
 
