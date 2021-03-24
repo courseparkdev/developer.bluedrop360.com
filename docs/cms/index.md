@@ -6,10 +6,9 @@ Bluedrop Learning Networks currently supports the following APIs for MLTSD-appro
 	 - Allows training providers to submit learning records to the MLTSD Certificate Management System (CMS).
 
  - [Class Offering API](./class-offering-api)
-	 - Allows training providers to publish in-person class offerings to the MLTSD Marketplace.
+	 - Allows training providers to publish in-person or virtual class offerings to the MLTSD Marketplace.
 
  - [Online Offering API](./online-offering-api)
-
 	 - Allows training providers to publish online (E-Learning) offerings to the MLTSD Marketplace.
 
 ## Common Documentation
