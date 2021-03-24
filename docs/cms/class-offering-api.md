@@ -43,14 +43,26 @@ Supported values for *trainingStandardKey*:
 	- JHSC – Part 1 (English, Blended)
 - *JHSC-2014-1-E-I*
 	- JHSC - Part 1 (English, In-Person)
+- *JHSC-2014-1-E-V*
+	- JHSC - Part 1 (English, Virtual)
 - *JHSC-2014-2-E-I*
 	- JHSC - Part 2 (English, In-Person) 
+- *JHSC-2014-2-E-V*
+	- JHSC - Part 2 (English, Virtual) 
 - *JHSC-2014-1-F-I*
 	- CMSS - partie 1 (French, In-Person) 
+- *JHSC-2014-1-F-V*
+	- CMSS - partie 1 (French, Virtual) 
 - *JHSC-2014-2-F-I*
 	- CMSS - partie 2 (French, In-Person) 
+- *JHSC-2014-2-F-V*
+	- CMSS - partie 2 (French, Virtual) 
 - *JHSC-2014-Refr-E-I*
 	- JHSC – Refresher (English, In-Person) 
+- *JHSC-2014-Refr-E-V*
+	- JHSC – Refresher (English, Virtual) 
+- *JHSC-2014-Refr-F-V*
+	- CMSS - refresher (French, Virtual) 
 - *JHSC-1996-1-E-I*
 	- JHSC 1996 - Part 1 (English, In-Person) 
 - *JHSC-1996-2-E-I*
